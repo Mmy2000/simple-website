@@ -86,4 +86,8 @@ body{
 .clear-fix{
     clear: both;
 }
+.about{
+    background-color: #ff305b;
+    margin-top: 20px;
+}
 
