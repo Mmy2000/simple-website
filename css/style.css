@@ -312,16 +312,16 @@ body{
 }
 .facts{
     width: 100%;
-    background-color: aqua;
+    background-color: #f1f1f1;
 }
 .facts .container{
     width: 80%;
     margin: 20px auto;
+    padding: 50px 0;
 }
 .facts .fact{
     float: left;
     width: 25%;
-    background-color: yellow;
     text-align: center;
 }
 .facts .fact i{
@@ -334,4 +334,5 @@ body{
 }
 .facts .fact h5{
     font-size: 16px;
+    color: #555555;
 }
