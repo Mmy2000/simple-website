@@ -338,22 +338,24 @@ body{
 }
 .feedback{
     width: 100%;
-    background-color: #ff305b;
+    position: relative;
 }
 .feedback .container{
     width: 70%;
-    background-color: aqua;
+    background-color: #f1f1f1;
     margin: 10px auto;
     padding: 20px;
     padding-left: 40px;
     border-radius: 5px;
-
-
+    overflow: hidden;
+    position: relative;
 }
 
 .feedback h2{
     text-align: center;
     font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 .feedback .item .img{
     width: 10%;
@@ -368,10 +370,13 @@ body{
 .feedback .item img{
     border-radius: 50%;
     width: 100px;
+    z-index: 10;
+    position: relative;
 }
 .feedback .item .info h3{
     font-size: 26px;
     color: #333;
+    padding-top: 20px;
 }
 .feedback .item .info span{
     color: #555555;
@@ -382,4 +387,16 @@ body{
 }
 .feedback .item .info .rate{
     color: #f1c30d;
+    padding-bottom: 20px;
+}
+.feedback .container::after{
+    content: "";
+  position:absolute;
+  width:200px;
+  height:300px;
+  transform:rotate(45deg);
+  background-color:#ff305b;
+  top: -150px; /* to see where it is */
+  left: -70px;
+  z-index: 5;
 }
