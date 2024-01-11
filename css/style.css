@@ -236,7 +236,6 @@ body{
 }
 .services h2{
     font-size: 40px;
-    margin: 20px 0;
     color: #333;
 }
 .service-item h3{
@@ -265,7 +264,8 @@ body{
     width: 100%;
 }
 .portfolio h2{
-    margin: 20px 0;
+    font-size: 40px;
+    color: #333;
 }
 .portfolio .item{
     width: 33.33%;
@@ -306,10 +306,7 @@ body{
     bottom: 0;
     padding: 10px;
 }
-.portfolio h2{
-    font-size: 40px;
-    color: #333;
-}
+
 .facts{
     width: 100%;
     background-color: #f1f1f1;
@@ -356,7 +353,6 @@ body{
     text-align: center;
     font-size: 40px;
     padding-top: 50px;
-    padding-bottom: 20px;
 }
 .feedback .item .img{
     width: 10%;
@@ -402,4 +398,20 @@ body{
   top: -150px; /* to see where it is */
   left: -70px;
   z-index: 5;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line .line1{
+    padding: 2px 0;
+    border-top: 0.1px solid #ff305b;
+    width: 100px;
+}
+.line #line2{
+    width: 200px;
+}
+#line3{
+    padding-bottom: 20px;
 }
