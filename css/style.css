@@ -416,3 +416,53 @@ body{
   left: -70px;
   z-index: 5;
 }
+.blog{
+    width: 100%;
+    background-color: #f1f1f1;
+    margin: 50px 0;
+}
+.blog h2{
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+}
+.blog .container{
+    width: 80%;
+    margin: 20px auto;
+}
+.blog .item{
+    width: 33.33%;
+    float: left;
+    background-color: white;
+    border: 10px solid #f1f1f1;
+    margin-bottom: 50px;
+}
+
+.blog .item img{
+    width: 100%;
+    display: block;
+}
+.blog .item p{
+    font-size: 16;
+    color: #555555;
+    padding: 10px 15px;
+}
+.blog .item h3{
+    font-size: 24px;
+    color: #333;
+    padding-left: 15px;
+    transition: color 0.5s;
+}
+.blog .item a{
+    text-decoration: none;
+    color: #555555;
+    padding: 10px 15px;
+    transition: color 0.5s;
+}
+.blog .item h3:hover{
+    color: #ff305b;
+    cursor: pointer;
+}
+.blog .item a:hover{
+    color: #ff305b;
+}
