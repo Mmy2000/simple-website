@@ -297,6 +297,7 @@ body{
     width: 80%;
     margin: 20px auto;
     padding: 50px 0;
+    padding-bottom: 20px;
 }
 .portfolio .container .item .caption2 i{
     font-size: 25px;
@@ -320,5 +321,17 @@ body{
 .facts .fact{
     float: left;
     width: 25%;
-    background-color: #ff305b;
+    background-color: yellow;
+    text-align: center;
+}
+.facts .fact i{
+    font-size: 30px;
+    color: #ff305b;
+    padding: 10px 0;
+}
+.facts .fact h3{
+    font-size: 26px;
+}
+.facts .fact h5{
+    font-size: 16px;
 }
