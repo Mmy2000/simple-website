@@ -309,3 +309,16 @@ body{
     font-size: 40px;
     color: #333;
 }
+.facts{
+    width: 100%;
+    background-color: aqua;
+}
+.facts .container{
+    width: 80%;
+    margin: 20px auto;
+}
+.facts .fact{
+    float: left;
+    width: 25%;
+    background-color: #ff305b;
+}
