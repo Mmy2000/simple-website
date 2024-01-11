@@ -336,3 +336,50 @@ body{
     font-size: 16px;
     color: #555555;
 }
+.feedback{
+    width: 100%;
+    background-color: #ff305b;
+}
+.feedback .container{
+    width: 70%;
+    background-color: aqua;
+    margin: 10px auto;
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 5px;
+
+
+}
+
+.feedback h2{
+    text-align: center;
+    font-size: 40px;
+}
+.feedback .item .img{
+    width: 10%;
+    float: left;
+    padding-top: 30px;
+}
+.feedback .item .info{
+    padding: 0 20px;
+    width: 90%;
+    float: left;
+}
+.feedback .item img{
+    border-radius: 50%;
+    width: 100px;
+}
+.feedback .item .info h3{
+    font-size: 26px;
+    color: #333;
+}
+.feedback .item .info span{
+    color: #555555;
+}
+.feedback .item .info p{
+    color: #555555;
+    padding: 10px 0;
+}
+.feedback .item .info .rate{
+    color: #f1c30d;
+}
