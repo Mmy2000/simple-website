@@ -263,7 +263,6 @@ body{
     text-align: center;
     margin: 100px 0;
     width: 100%;
-    background-color: aqua;
 }
 .portfolio h2{
     margin: 20px 0;
@@ -271,7 +270,7 @@ body{
 .portfolio .item{
     width: 33.33%;
     position: relative;
-    border: aqua 20px solid;
+    border: white 20px solid;
     float: left;
 }
 .portfolio .item img{
@@ -286,7 +285,7 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
-    color: rgb(222, 241, 10);
+    color: #ff305b;
     opacity: 0;
     transition: opacity 0.5s;
     cursor: pointer;
@@ -298,4 +297,15 @@ body{
     width: 80%;
     margin: 20px auto;
     padding: 50px 0;
+}
+.portfolio .container .item .caption2 i{
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+}
+.portfolio h2{
+    font-size: 40px;
+    color: #333;
 }
