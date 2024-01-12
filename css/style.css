@@ -1,28 +1,34 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Source Sans 3', sans-serif;
 }
-.line{
+
+.line {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.line .line1{
+
+.line .line1 {
     padding: 2px 0;
     border-top: 0.1px solid #ff305b;
     width: 100px;
 }
-.line #line2{
+
+.line #line2 {
     width: 200px;
 }
-#line3{
+
+#line3 {
     padding-bottom: 20px;
 }
-.hero{
+
+.hero {
     text-align: center;
     background-image: url(../img/hero\ img.jpg);
     width: 100%;
@@ -30,33 +36,37 @@ body{
     position: relative;
     background-size: cover;
 }
-.caption{
+
+.caption {
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(0, 0, 0,0.8);
+    background-color: rgb(0, 0, 0, 0.8);
     padding-top: 300px;
 }
 
-.hero h3{
+.hero h3 {
     color: white;
     font-size: 24px;
 }
-.hero h1{
+
+.hero h1 {
     color: #ff305b;
     font-size: 70px;
     font-weight: bold;
-    
+
 }
-.hero p{
+
+.hero p {
     color: white;
     font-size: 26px;
-    font-family:  sans-serif;
+    font-family: sans-serif;
 }
-.nav{
+
+.nav {
     position: absolute;
     width: 100%;
     height: 50px;
@@ -67,19 +77,22 @@ body{
     background-color: rgba(0, 0, 0, 0);
     z-index: 10;
 }
-.nav .logo{
+
+.nav .logo {
     float: left;
     width: 30%;
     padding-top: 15px;
     text-align: center;
 }
-.nav .items{
+
+.nav .items {
     float: left;
     width: 70%;
     text-align: center;
-    padding-top: 15px;  
+    padding-top: 15px;
 }
-.nav .items a{
+
+.nav .items a {
     text-decoration: none;
     padding: 0 10px;
     font-size: 18px;
@@ -87,26 +100,32 @@ body{
     color: white;
     transition: color 1s;
 }
-.nav .logo a{
+
+.nav .logo a {
     text-decoration: none;
     font-size: 24px;
     font-weight: 300;
     color: #ff305b;
 }
-.nav .items a:hover{
+
+.nav .items a:hover {
     color: #ff305b;
 }
+
 .nav .logo {
     padding-top: 10px;
 }
-.clear-fix{
+
+.clear-fix {
     clear: both;
 }
-.about{
+
+.about {
     margin-top: 20px;
     margin-bottom: 100px;
 }
-.about .image .border{
+
+.about .image .border {
     width: 50%;
     border: 9px solid rgb(110, 110, 110);
     border-radius: 5px;
@@ -114,17 +133,20 @@ body{
     z-index: 1;
     top: 20px;
     left: 249px;
-    
+
 }
-.about .image .border img{
+
+.about .image .border img {
     visibility: hidden;
 }
-.about .image{
+
+.about .image {
     float: left;
     width: 50%;
     position: relative;
 }
-.about .image .img{
+
+.about .image .img {
     width: 50%;
     position: absolute;
     z-index: 5;
@@ -133,11 +155,13 @@ body{
     border-radius: 5px;
     overflow: hidden;
 }
-.about .image img{
+
+.about .image img {
     width: 100%;
     display: block;
 }
-.about .image .img .cover{
+
+.about .image .img .cover {
     position: absolute;
     width: 100%;
     top: 0;
@@ -149,155 +173,183 @@ body{
     transition: transform 0.5s ease;
     text-align: center;
 }
-.about .image .img .cover i{
+
+.about .image .img .cover i {
     padding: 0 10px;
     color: white;
     font-size: 20px;
     transition: color 0.5s;
 }
-.about .image .img .cover .center{
+
+.about .image .img .cover .center {
     position: absolute;
- top: 50%;
- left: 0;
- right: 0;
- margin-left: auto;
- margin-right: auto;
- transform: translateY(-50%);
- width: 50%;
- height: 50px;
- text-align: center;
- line-height: 50px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
 }
-.about .image .img:hover .cover{
+
+.about .image .img:hover .cover {
     transform: translateY(0%);
 }
-.about .image .img .cover i:hover{
+
+.about .image .img .cover i:hover {
     color: #ff305b;
     cursor: pointer;
 }
 
-.about .info{
+.about .info {
     width: 50%;
     float: left;
     margin-top: 50px;
     padding: 0 10px;
 }
-.info h3{
+
+.info h3 {
     font-size: 34px;
     margin-bottom: 10px;
 }
-.info p{
+
+.info p {
     font-size: 18px;
-    
+
 }
-.row .row1 ul{
+
+.row .row1 ul {
     width: 50%;
     float: left;
     list-style: none;
 }
-.row .row2 ul{
+
+.row .row2 ul {
     width: 50%;
     float: left;
     list-style: none;
 }
-.row .row2 li{
+
+.row .row2 li {
     font-size: 18px;
     font-weight: 500;
     color: #333333;
 }
-.row .row1 li{
+
+.row .row1 li {
     font-size: 18px;
     font-weight: 500;
     color: #333333;
 }
-.row .row2 li span{
+
+.row .row2 li span {
     color: #555555;
 }
-.row .row1 li span{
+
+.row .row1 li span {
     color: #555555;
 }
-.row button{
+
+.row button {
     padding: 15px 20px;
     margin: 20px 5px;
     border: none;
-    background-color:#ff305b;
+    background-color: #ff305b;
     font-size: 16px;
     border-radius: 4px;
     transition: 0.5s;
     color: white;
 }
-.row button:hover{
+
+.row button:hover {
     background-color: #ff0033;
     cursor: pointer;
     color: white;
 }
 
-.row button i{
-    padding:0 1px;
+.row button i {
+    padding: 0 1px;
 }
-.services{
+
+.services {
     background-color: #f1f1f1;
     width: 100%;
     text-align: center;
 }
-.service-item{
-    width: 25%;
+
+.service-item {
+    width: 100%;
     float: left;
     padding: 20px 10px;
     transition: all 0.5s;
 }
-.service-item img{
+
+.service-item img {
     width: 40px;
     transition: transform 0.5s;
 }
-.services h2{
+
+.services h2 {
     font-size: 40px;
     color: #333;
 }
-.service-item h3{
+
+.service-item h3 {
     padding: 8px 0px;
     font-size: 24px;
     color: #333;
 }
-.service-item p{
+
+.service-item p {
     color: #555555;
 }
-.services .container{
+
+.services .container {
     width: 80%;
     margin: 40px auto;
     padding: 50px 0;
 }
-.service-item:hover{
+
+.service-item:hover {
     background-color: white;
-    box-shadow: 0 0 15px 10px rgba(136, 136, 136,0.2);
+    box-shadow: 0 0 15px 10px rgba(136, 136, 136, 0.2);
 }
-.service-item:hover img{
-    transform: scale(1.2,1.2);
+
+.service-item:hover img {
+    transform: scale(1.2, 1.2);
 }
-.portfolio{
+
+.portfolio {
     text-align: center;
     margin: 100px 0;
     width: 100%;
 }
-.portfolio h2{
+
+.portfolio h2 {
     font-size: 40px;
     color: #333;
 }
-.portfolio .item{
-    width: 33.33%;
+
+.portfolio .item {
+    width: 100%;
     position: relative;
     border: white 20px solid;
     float: left;
 }
-.portfolio .item img{
+
+.portfolio .item img {
     width: 100%;
     display: block;
 }
-.portfolio .item .caption2{
+
+.portfolio .item .caption2 {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
     text-align: center;
@@ -306,16 +358,19 @@ body{
     transition: opacity 0.5s;
     cursor: pointer;
 }
-.portfolio .item:hover .caption2{
+
+.portfolio .item:hover .caption2 {
     opacity: 1;
 }
-.portfolio .container{
+
+.portfolio .container {
     width: 80%;
     margin: 20px auto;
     padding: 50px 0;
     padding-bottom: 20px;
 }
-.portfolio .container .item .caption2 i{
+
+.portfolio .container .item .caption2 i {
     font-size: 25px;
     position: absolute;
     right: 0;
@@ -323,39 +378,46 @@ body{
     padding: 10px;
 }
 
-.facts{
+.facts {
     width: 100%;
     background-color: #f1f1f1;
 }
-.facts .container{
+
+.facts .container {
     width: 80%;
     margin: 20px auto;
     padding: 50px 0;
 }
-.facts .fact{
+
+.facts .fact {
     float: left;
-    width: 25%;
+    width: 100%;
     text-align: center;
 }
-.facts .fact i{
+
+.facts .fact i {
     font-size: 30px;
     color: #ff305b;
     padding: 10px 0;
 }
-.facts .fact h3{
+
+.facts .fact h3 {
     font-size: 26px;
 }
-.facts .fact p{
+
+.facts .fact p {
     font-size: 16px;
     color: #555555;
 }
-.feedback{
+
+.feedback {
     width: 100%;
     position: relative;
-    padding: 0 200px;
+    padding: 0 20px ;
 }
-.feedback .container{
-    width: 70%;
+
+.feedback .container {
+    width: 100%;
     background-color: #f1f1f1;
     margin: 10px auto;
     padding: 20px;
@@ -365,104 +427,349 @@ body{
     position: relative;
 }
 
-.feedback h2{
+.feedback h2 {
     text-align: center;
     font-size: 40px;
     padding-top: 50px;
     color: #333;
 }
-.feedback .item .img{
-    width: 10%;
+
+.feedback .item .img {
+    width: 100%;
     float: left;
     padding-top: 30px;
 }
-.feedback .item .info{
-    padding: 0 60px;
+
+.feedback .item .info {
+    padding: 0 10px;
     width: 90%;
     float: left;
 }
-.feedback .item img{
+
+.feedback .item img {
     border-radius: 50%;
     width: 100px;
     z-index: 10;
     position: relative;
 }
-.feedback .item .info h3{
+
+.feedback .item .info h3 {
     font-size: 26px;
     color: #333;
     padding-top: 20px;
 }
-.feedback .item .info span{
+
+.feedback .item .info span {
     color: #555555;
 }
-.feedback .item .info p{
+
+.feedback .item .info p {
     color: #555555;
     padding: 10px 0;
     font-size: 16px;
     font-style: italic;
 }
-.feedback .item .info .rate{
+
+.feedback .item .info .rate {
     color: #f1c30d;
     padding-bottom: 20px;
 }
-.feedback .container::after{
+
+.feedback .container::after {
     content: "";
-  position:absolute;
-  width:200px;
-  height:300px;
-  transform:rotate(45deg);
-  background-color:#ff305b;
-  top: -150px; /* to see where it is */
-  left: -70px;
-  z-index: 5;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    transform: rotate(45deg);
+    background-color: #ff305b;
+    top: -150px;
+    /* to see where it is */
+    left: -70px;
+    z-index: 5;
 }
-.blog{
+
+.blog {
     width: 100%;
     background-color: #f1f1f1;
     margin: 50px 0;
 }
-.blog h2{
+
+.blog h2 {
     text-align: center;
     color: #333;
     font-size: 40px;
 }
-.blog .container{
+
+.blog .container {
     width: 80%;
     margin: 20px auto;
 }
-.blog .item{
-    width: 33.33%;
+
+.blog .item {
+    width: 100%;
     float: left;
     background-color: white;
     border: 10px solid #f1f1f1;
     margin-bottom: 50px;
 }
 
-.blog .item img{
+.blog .item img {
     width: 100%;
     display: block;
 }
-.blog .item p{
+
+.blog .item p {
     font-size: 16;
     color: #555555;
     padding: 10px 15px;
 }
-.blog .item h3{
+
+.blog .item h3 {
     font-size: 24px;
     color: #333;
     padding-left: 15px;
     transition: color 0.5s;
 }
-.blog .item a{
+
+.blog .item a {
     text-decoration: none;
     color: #555555;
     padding: 10px 15px;
     transition: color 0.5s;
 }
-.blog .item h3:hover{
+
+.blog .item h3:hover {
     color: #ff305b;
     cursor: pointer;
 }
-.blog .item a:hover{
+
+.blog .item a:hover {
     color: #ff305b;
+}
+
+.contact {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.contact .container h2 {
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+}
+
+.contact .container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.contact .container .full-name .name {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    padding-right: 5px;
+}
+
+.contact .container .full-name .email {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    padding-left: 5px;
+}
+
+.contact .container .full-name input {
+    width: 100%;
+    height: 40px;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+.contact .container .subject input {
+    width: 100%;
+    height: 40px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+}
+
+.contact .container .subject {
+    padding-bottom: 10px;
+}
+
+.contact .container .message {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.contact .container .message textarea {
+    width: 100%;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+}
+
+.contact .container button {
+    padding: 15px 20px;
+    margin: 20px 5px;
+    border: none;
+    background-color: #ff305b;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: white;
+}
+
+.contact .container button:hover {
+    background-color: #ff0033;
+    cursor: pointer;
+    color: white;
+}
+
+@media (min-width:640px) {
+    .blog .item {
+        width: 100%;
+    }
+
+    .service-item {
+        width: 100%;
+    }
+
+    .portfolio .item {
+        width: 100%;
+    }
+
+    .facts .fact {
+        width: 100%;
+    }
+    .feedback{
+        padding: 20px 20px;
+    }
+
+    .feedback .container {
+        width: 100%;
+    }
+
+    .feedback .item .img {
+        width: 100%;
+        float: left;
+        padding-top: 30px;
+    }
+
+    .feedback .item .info {
+        padding: 0 10px;
+        width: 90%;
+        float: left;
+    }
+}
+
+@media (min-width:768px) {
+    .blog .item {
+        width: 50%;
+    }
+
+    .service-item {
+        width: 50%;
+    }
+
+    .portfolio .item {
+        width: 50%;
+    }
+
+    .facts .fact {
+        width: 50%;
+    }
+    .feedback{
+        padding: 0px 50px;
+    }
+
+    .feedback .container {
+        width: 100%;
+        
+    }
+
+    .feedback .item .img {
+        width: 20%;
+        float: left;
+        padding-top: 30px;
+    }
+    .feedback .item .info {
+    padding: 0 20px;
+    width: 80%;
+    float: left;
+}
+
+}
+
+@media (min-width:1025px) {
+    .blog .item {
+        width: 33.333%;
+    }
+
+    .service-item {
+        width: 33.333%;
+    }
+
+    .portfolio .item {
+        width: 33.33%;
+    }
+
+    .facts .fact {
+        width: 33.33%;
+    }
+    .feedback{
+        padding: 0 100px ;
+    }
+
+    .feedback .container {
+        width: 80%;
+    }
+
+    .feedback .item .img {
+        width: 10%;
+        float: left;
+        padding-top: 30px;
+    }
+    .feedback .item .info {
+    padding: 0 60px;
+    width: 90%;
+    float: left;
+}
+
+
+}
+
+@media (min-width:1280px) {
+    .blog .item {
+        width: 33.33%;
+    }
+
+    .service-item {
+        width: 25%;
+    }
+
+    .portfolio .item {
+        width: 33.33%;
+    }
+
+    .facts .fact {
+        width: 25%;
+    }
+    .feedback{
+        padding: 0 200px ;
+    }
+
+    .feedback .container {
+        width: 70%;
+    }
+
+    .feedback .item .img {
+        width: 10%;
+        float: left;
+        padding-top: 30px;
+    }
+    .feedback .item .info {
+    padding: 0 60px;
+    width: 90%;
+    float: left;
+}
 }
