@@ -511,6 +511,7 @@ body {
     background-color: white;
     border: 10px solid #f1f1f1;
     margin-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .blog .item img {
@@ -534,7 +535,7 @@ body {
 .blog .item a {
     text-decoration: none;
     color: #555555;
-    padding: 10px 15px;
+    padding: 0 15px;
     transition: color 0.5s;
 }
 
