@@ -175,9 +175,9 @@ body {
 }
 
 .about .image .img .cover i {
-    padding: 0 10px;
+    padding: 0 ;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     transition: color 0.5s;
 }
 
@@ -609,11 +609,11 @@ body {
 }
 
 .contact .container button {
-    padding: 15px 20px;
-    margin: 20px 5px;
+    padding: 12px 20px;
+    margin: 20px 0;
     border: none;
     background-color: #ff305b;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 4px;
     transition: 0.5s;
     color: white;
@@ -625,6 +625,37 @@ body {
     color: white;
 }
 
+.footer{
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+}
+.footer .content{
+    padding: 70px 50px;
+}
+.footer .content i{
+    width: 60px;
+    color:  #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.footer .content i:hover{
+    color: #ff305b;
+    cursor: pointer;
+}
+.footer .content p{
+    color: #ffffff;
+    padding-top: 5px;
+}
+.footer .content a{
+    text-decoration: none;
+    color: #ff0033;
+}
+.footer .content a:hover{
+    text-decoration: underline;
+}
+
+/* media quary */
 @media (min-width:640px) {
     .blog .item {
         width: 100%;
@@ -664,6 +695,10 @@ body {
 
     .about .image .border {
         visibility: hidden;
+    }
+    .about .image .cover i{
+        padding: 0 2px;
+        font-size: 10px;
     }
 }
 
@@ -708,6 +743,10 @@ body {
     .about .image .border {
         visibility: hidden;
     }
+    .about .image .img .cover i{
+        padding: 0 2px;
+        font-size: 10px;
+    }
 
 }
 
@@ -751,6 +790,10 @@ body {
     .about .image .border {
         
         visibility: hidden;
+    }
+    .about .image .img .cover i{
+        padding: 0 5px;
+        font-size: 20px;
     }
 
 
@@ -803,5 +846,9 @@ body {
         left: 249px;
         visibility: visible;
 
+    }
+    .about .image .img .cover i{
+        padding: 0 10px;
+        font-size: 20px;
     }
 }
