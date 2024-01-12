@@ -634,10 +634,10 @@ body {
     padding: 70px 50px;
 }
 .footer .content i{
-    width: 60px;
+    font-size: 16px;
     color:  #ffffff;
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
 }
 .footer .content i:hover{
     color: #ff305b;
