@@ -126,15 +126,15 @@ body {
 }
 
 .about .image .border {
-    width: 50%;
-    border: 9px solid rgb(110, 110, 110);
-    border-radius: 5px;
-    position: relative;
-    z-index: 1;
-    top: 20px;
-    left: 249px;
-
-}
+        width: 50%;
+        border: 9px solid rgb(110, 110, 110);
+        border-radius: 5px;
+        position: relative;
+        z-index: 1;
+        top: 20px;
+        left: 249px;
+        visibility: hidden;
+    }
 
 .about .image .border img {
     visibility: hidden;
@@ -413,7 +413,7 @@ body {
 .feedback {
     width: 100%;
     position: relative;
-    padding: 0 20px ;
+    padding: 0 20px;
 }
 
 .feedback .container {
@@ -641,7 +641,8 @@ body {
     .facts .fact {
         width: 100%;
     }
-    .feedback{
+
+    .feedback {
         padding: 20px 20px;
     }
 
@@ -659,6 +660,10 @@ body {
         padding: 0 10px;
         width: 90%;
         float: left;
+    }
+
+    .about .image .border {
+        visibility: hidden;
     }
 }
 
@@ -678,13 +683,14 @@ body {
     .facts .fact {
         width: 50%;
     }
-    .feedback{
+
+    .feedback {
         padding: 0px 50px;
     }
 
     .feedback .container {
         width: 100%;
-        
+
     }
 
     .feedback .item .img {
@@ -692,11 +698,16 @@ body {
         float: left;
         padding-top: 30px;
     }
+
     .feedback .item .info {
-    padding: 0 20px;
-    width: 80%;
-    float: left;
-}
+        padding: 0 20px;
+        width: 80%;
+        float: left;
+    }
+
+    .about .image .border {
+        visibility: hidden;
+    }
 
 }
 
@@ -716,8 +727,9 @@ body {
     .facts .fact {
         width: 33.33%;
     }
-    .feedback{
-        padding: 0 100px ;
+
+    .feedback {
+        padding: 0 100px;
     }
 
     .feedback .container {
@@ -729,11 +741,17 @@ body {
         float: left;
         padding-top: 30px;
     }
+
     .feedback .item .info {
-    padding: 0 60px;
-    width: 90%;
-    float: left;
-}
+        padding: 0 60px;
+        width: 90%;
+        float: left;
+    }
+
+    .about .image .border {
+        
+        visibility: hidden;
+    }
 
 
 }
@@ -754,8 +772,9 @@ body {
     .facts .fact {
         width: 25%;
     }
-    .feedback{
-        padding: 0 200px ;
+
+    .feedback {
+        padding: 0 200px;
     }
 
     .feedback .container {
@@ -767,9 +786,22 @@ body {
         float: left;
         padding-top: 30px;
     }
+
     .feedback .item .info {
-    padding: 0 60px;
-    width: 90%;
-    float: left;
-}
+        padding: 0 60px;
+        width: 90%;
+        float: left;
+    }
+
+    .about .image .border {
+        width: 50%;
+        border: 9px solid rgb(110, 110, 110);
+        border-radius: 5px;
+        position: relative;
+        z-index: 1;
+        top: 20px;
+        left: 249px;
+        visibility: visible;
+
+    }
 }
