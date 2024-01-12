@@ -64,6 +64,25 @@ body {
     color: white;
     font-size: 26px;
     font-family: sans-serif;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+.variable-word {
+  color: #3498db;
+  display: inline-block;
+  animation: colorChange 2s infinite alternate;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes colorChange {
+  to {
+    color: #e74c3c; /* Change to the color you want */
+  }
 }
 
 .nav {
@@ -126,15 +145,15 @@ body {
 }
 
 .about .image .border {
-        width: 50%;
-        border: 9px solid rgb(110, 110, 110);
-        border-radius: 5px;
-        position: relative;
-        z-index: 1;
-        top: 20px;
-        left: 249px;
-        visibility: hidden;
-    }
+    width: 50%;
+    border: 9px solid rgb(110, 110, 110);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    left: 249px;
+    visibility: hidden;
+}
 
 .about .image .border img {
     visibility: hidden;
@@ -175,7 +194,7 @@ body {
 }
 
 .about .image .img .cover i {
-    padding: 0 ;
+    padding: 0;
     color: white;
     font-size: 10px;
     transition: color 0.5s;
@@ -626,33 +645,39 @@ body {
     color: white;
 }
 
-.footer{
+.footer {
     width: 100%;
     background-color: #333;
     text-align: center;
 }
-.footer .content{
+
+.footer .content {
     padding: 70px 50px;
 }
-.footer .content i{
+
+.footer .content i {
     font-size: 16px;
-    color:  #ffffff;
+    color: #ffffff;
     margin: 0;
     padding: 0 10px;
 }
-.footer .content i:hover{
+
+.footer .content i:hover {
     color: #ff305b;
     cursor: pointer;
 }
-.footer .content p{
+
+.footer .content p {
     color: #ffffff;
     padding-top: 5px;
 }
-.footer .content a{
+
+.footer .content a {
     text-decoration: none;
     color: #ff0033;
 }
-.footer .content a:hover{
+
+.footer .content a:hover {
     text-decoration: underline;
 }
 
@@ -697,7 +722,8 @@ body {
     .about .image .border {
         visibility: hidden;
     }
-    .about .image .cover i{
+
+    .about .image .cover i {
         padding: 0 2px;
         font-size: 10px;
     }
@@ -744,7 +770,8 @@ body {
     .about .image .border {
         visibility: hidden;
     }
-    .about .image .img .cover i{
+
+    .about .image .img .cover i {
         padding: 0 2px;
         font-size: 10px;
     }
@@ -789,10 +816,11 @@ body {
     }
 
     .about .image .border {
-        
+
         visibility: hidden;
     }
-    .about .image .img .cover i{
+
+    .about .image .img .cover i {
         padding: 0 5px;
         font-size: 20px;
     }
@@ -848,7 +876,8 @@ body {
         visibility: visible;
 
     }
-    .about .image .img .cover i{
+
+    .about .image .img .cover i {
         padding: 0 10px;
         font-size: 20px;
     }

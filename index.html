@@ -17,7 +17,7 @@
         <div class="caption">
             <h3>Hello i'm</h3>
             <h1>ALEX SMITH</h1>
-            <p>Professional Web <span>Designer</span></p>
+            <p>Professional Web <span class="variable-word">Designer</span></p>
         </div>
     </div>
     <div class="nav">
@@ -291,22 +291,25 @@
             <div class="line">
                 <div class="line1" id="line3"></div>
             </div>
-            <div class="full-name">
-                <div class="name">
-                    <input type="text" name="name" placeholder="Name" required>
+            <form>
+                <div class="full-name">
+                    <div class="name">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="email">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="clear-fix"></div>
                 </div>
-                <div class="email">
-                    <input type="email" name="email" placeholder="Email" required>
+                <div class="subject">
+                    <input type="text" name="subject" placeholder="Subject" required>
                 </div>
-                <div class="clear-fix"></div>
-            </div>
-            <div class="subject">
-                <input type="text" name="subject" placeholder="Subject" required>
-            </div>
-            <div class="message">
-                <textarea name="message" placeholder="Message for me" cols="30" rows="10" required></textarea>
-            </div>
-            <button>SEND MESSAGE</button>
+                <div class="message">
+                    <textarea name="message" placeholder="Message for me" cols="30" rows="10" required></textarea>
+                </div>
+                <button>SEND MESSAGE</button>
+            </form>
+
         </div>
     </div>
     <div class="footer">
