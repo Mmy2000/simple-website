@@ -166,11 +166,8 @@ body {
 }
 
 .about .image .img {
-    width: 50%;
-    position: absolute;
-    z-index: 5;
-    top: 40px;
-    right: 100px;
+    width: 100%;
+    position: relative;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -194,9 +191,9 @@ body {
 }
 
 .about .image .img .cover i {
-    padding: 0;
+    padding: 0 2px;
     color: white;
-    font-size: 10px;
+    font-size: 20px;
     transition: color 0.5s;
 }
 
@@ -224,7 +221,7 @@ body {
 }
 
 .about .info {
-    width: 50%;
+    width: 100%;
     float: left;
     margin-top: 50px;
     padding: 0 10px;
@@ -722,10 +719,19 @@ body {
     .about .image .border {
         visibility: hidden;
     }
+    .about .image .img {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    }
+    .about .info {
+    width: 100%;
+    }
 
     .about .image .cover i {
         padding: 0 2px;
-        font-size: 10px;
+        font-size: 20px;
     }
 }
 
@@ -769,6 +775,18 @@ body {
 
     .about .image .border {
         visibility: hidden;
+    }
+    .about .image .img {
+    width: 50%;
+    }
+    .about .image .img {
+    width: 50%;
+    position: absolute;
+    z-index: 5;
+    top: 40px;
+    right: 100px;
+    border-radius: 5px;
+    overflow: hidden;
     }
 
     .about .image .img .cover i {
@@ -824,6 +842,18 @@ body {
         padding: 0 5px;
         font-size: 20px;
     }
+    .about .image .img {
+    width: 50%;
+    position: absolute;
+    z-index: 5;
+    top: 40px;
+    right: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    }
+    .about .info {
+    width: 50%;
+    }
 
 
 }
@@ -875,6 +905,18 @@ body {
         left: 249px;
         visibility: visible;
 
+    }
+    .about .image .img {
+    width: 50%;
+    position: absolute;
+    z-index: 5;
+    top: 40px;
+    right: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    }
+    .about .info {
+    width: 50%;
     }
 
     .about .image .img .cover i {
